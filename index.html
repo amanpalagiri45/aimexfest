@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AMIX 2026 – Department Fest Registration</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <button class="brand" id="home" aria-label="Go to all events">
+        <b id="fest"></b>
+        <span id="college"></span>
+      </button>
+      <button class="btn ghost sm" id="mineBtn">My tickets (<span id="cnt">0</span>)</button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="wrap">
+      <h1 id="heroT"></h1>
+      <p>Five events, one day, one department. Pick your events, register in a minute, and pay by UPI.</p>
+      <div class="facts">
+        <span>Saturday, 10 October 2026</span>
+        <span>Seminar Hall and Labs</span>
+        <span>Open to all departments</span>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="wrap">
+      <section class="view" id="v-events" aria-labelledby="evh">
+        <div class="sec-h">
+          <h2 id="evh" tabindex="-1">Events</h2>
+          <p>Fees are per person or per team, as shown.</p>
+        </div>
+        <div class="grid" id="evList"></div>
+      </section>
+
+      <section class="view" id="v-form" hidden>
+        <div class="panel" id="formBox"></div>
+      </section>
+
+      <section class="view" id="v-pay" hidden>
+        <div class="panel" id="payBox"></div>
+      </section>
+
+      <section class="view" id="v-done" hidden>
+        <div id="doneBox"></div>
+      </section>
+
+      <section class="view" id="v-mine" hidden>
+        <div class="sec-h">
+          <h2 tabindex="-1">My tickets</h2>
+          <p>Saved on this device.</p>
+        </div>
+        <div id="mineList"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span id="foot"></span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

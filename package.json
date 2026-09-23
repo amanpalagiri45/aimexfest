@@ -1,0 +1,25 @@
+{
+  "name": "amix-fest-registration",
+  "version": "1.0.0",
+  "description": "Modern event registration platform for AMIX 2026 department fest",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx http-server"
+  },
+  "keywords": [
+    "event",
+    "registration",
+    "fest",
+    "upi",
+    "qrcode",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/amix-fest.git"
+  },
+  "homepage": "https://github.com/yourusername/amix-fest#readme"
+}
