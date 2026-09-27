@@ -1,0 +1,185 @@
+[
+  {
+    "id": "codestorm",
+    "name": "CodeStorm",
+    "tag": "Competitive coding",
+    "category": "coding",
+    "desc": "Three hours, eight algorithmic problems, one live leaderboard. Solo or in pairs. Battle against the best coders on campus.",
+    "date": "2026-10-30T11:30",
+    "venue": "Lab 2",
+    "fee": 100,
+    "min": 1,
+    "max": 2,
+    "c": "#059669",
+    "on": "#ffffff",
+    "totalSlots": 50,
+    "slotsLeft": 6,
+    "prizes": [
+      { "place": "1st Prize", "amount": "₹5,000", "rank": "gold" },
+      { "place": "2nd Prize", "amount": "₹3,000", "rank": "silver" },
+      { "place": "3rd Prize", "amount": "₹1,500", "rank": "bronze" }
+    ],
+    "rules": [
+      "Solo or pairs (max 2 members).",
+      "Supported languages: C, C++, Java, and Python.",
+      "Plagiarism or external assistance leads to immediate disqualification.",
+      "Tie-breakers will be resolved based on submission time and penalty points."
+    ],
+    "coordinators": [
+      { "name": "Arjun Sharma", "role": "Student Lead", "phone": "+91 98765 43210" },
+      { "name": "Pooja Reddy", "role": "Technical Head", "phone": "+91 98765 43211" }
+    ],
+    "extra": {
+      "id": "lang",
+      "label": "Preferred programming language",
+      "type": "select",
+      "opts": ["C++", "Java", "Python", "C", "Any"]
+    }
+  },
+  {
+    "id": "hackship",
+    "name": "Hack and Ship",
+    "tag": "Mini hackathon",
+    "category": "coding",
+    "desc": "Build a working web/mobile or AI prototype in four hours around a surprise theme revealed at kickoff. Pitch live to judges.",
+    "date": "2026-10-30T09:30",
+    "venue": "Seminar Hall",
+    "fee": 300,
+    "min": 2,
+    "max": 4,
+    "c": "#F2545B",
+    "on": "#ffffff",
+    "totalSlots": 30,
+    "slotsLeft": 4,
+    "prizes": [
+      { "place": "1st Prize", "amount": "₹8,000", "rank": "gold" },
+      { "place": "2nd Prize", "amount": "₹4,500", "rank": "silver" },
+      { "place": "3rd Prize", "amount": "₹2,500", "rank": "bronze" }
+    ],
+    "rules": [
+      "Teams must consist of 2 to 4 participants.",
+      "Theme will be announced 15 minutes before official kickoff.",
+      "Pre-written core boilerplates allowed, but business logic must be built during the hackathon.",
+      "Judging criteria: Innovation (30%), Technical Execution (40%), and Pitch/Demo (30%)."
+    ],
+    "coordinators": [
+      { "name": "Siddharth Rao", "role": "Hackathon Lead", "phone": "+91 98765 43212" },
+      { "name": "Neha Varma", "role": "Event Coordinator", "phone": "+91 98765 43213" }
+    ],
+    "extra": {
+      "id": "idea",
+      "label": "Tech stack or preliminary idea (optional)",
+      "type": "text",
+      "optional": true
+    }
+  },
+  {
+    "id": "quiz",
+    "name": "Byte Me Tech Quiz",
+    "tag": "Tech Trivia",
+    "category": "quiz",
+    "desc": "Buzzers, rapid-fire rounds, audio-visual mysteries, and tech trivia that tests your knowledge of AI, computing history, and pop culture.",
+    "date": "2026-10-30T10:30",
+    "venue": "Seminar Hall",
+    "fee": 50,
+    "min": 2,
+    "max": 3,
+    "c": "#E5A912",
+    "on": "#10132B",
+    "totalSlots": 40,
+    "slotsLeft": 12,
+    "prizes": [
+      { "place": "1st Prize", "amount": "₹3,000", "rank": "gold" },
+      { "place": "2nd Prize", "amount": "₹2,000", "rank": "silver" },
+      { "place": "3rd Prize", "amount": "₹1,000", "rank": "bronze" }
+    ],
+    "rules": [
+      "Teams of 2 or 3 students.",
+      "Preliminary pen-and-paper round to shortlist the top 6 teams for the stage finals.",
+      "No smartphones or smartwatches allowed during quiz rounds.",
+      "Quizmaster decision is final and binding."
+    ],
+    "coordinators": [
+      { "name": "Kavya Nair", "role": "Quizmaster", "phone": "+91 98765 43214" },
+      { "name": "Vikram Joshi", "role": "Event Coordinator", "phone": "+91 98765 43215" }
+    ],
+    "extra": {
+      "id": "team",
+      "label": "Team Name",
+      "type": "text"
+    }
+  },
+  {
+    "id": "pixel",
+    "name": "Pixel Clash",
+    "tag": "Esports Championship",
+    "category": "esports",
+    "desc": "High-octane 5v5 knockout tournament on high-spec lab PCs. Bring your A-game, team synergy, and competitive spirit.",
+    "date": "2026-10-30T12:30",
+    "venue": "Gaming Lab",
+    "fee": 200,
+    "min": 4,
+    "max": 5,
+    "c": "#0FA3B1",
+    "on": "#ffffff",
+    "totalSlots": 20,
+    "slotsLeft": 3,
+    "prizes": [
+      { "place": "1st Prize", "amount": "₹6,000", "rank": "gold" },
+      { "place": "2nd Prize", "amount": "₹3,500", "rank": "silver" },
+      { "place": "3rd Prize", "amount": "₹1,500", "rank": "bronze" }
+    ],
+    "rules": [
+      "Teams must consist of 4 or 5 players.",
+      "Single-elimination knockout format with Best-of-3 Finals.",
+      "Bring your own mice, mousepads, and 3.5mm/USB headsets.",
+      "Toxicity, foul language, or unsportsmanlike behavior results in immediate forfeit."
+    ],
+    "coordinators": [
+      { "name": "Rohan Mehra", "role": "Esports Marshal", "phone": "+91 98765 43216" },
+      { "name": "Sameer Khan", "role": "Lab Technical Lead", "phone": "+91 98765 43217" }
+    ],
+    "extra": {
+      "id": "ign",
+      "label": "Team Captain's In-Game Tag (IGN)",
+      "type": "text"
+    }
+  },
+  {
+    "id": "design",
+    "name": "Design Sprint",
+    "tag": "UI/UX Design",
+    "category": "uiux",
+    "desc": "Redesign a real broken campus mobile or web app screen in 90 minutes. Present your visual hierarchy, user flow, and design rationale to judges.",
+    "date": "2026-10-30T15:00",
+    "venue": "Lab 3",
+    "fee": 100,
+    "min": 1,
+    "max": 1,
+    "c": "#7A4DFF",
+    "on": "#ffffff",
+    "totalSlots": 35,
+    "slotsLeft": 9,
+    "prizes": [
+      { "place": "1st Prize", "amount": "₹4,000", "rank": "gold" },
+      { "place": "2nd Prize", "amount": "₹2,500", "rank": "silver" },
+      { "place": "3rd Prize", "amount": "₹1,000", "rank": "bronze" }
+    ],
+    "rules": [
+      "Solo participation only.",
+      "Time limit: 90 minutes for designing + 3 minutes for pitch.",
+      "Any UI tool (Figma, Adobe XD, Penpot) or high-fidelity hand sketch is permitted.",
+      "Evaluated on Usability, Aesthetics, Accessibility, and Design Rationale."
+    ],
+    "coordinators": [
+      { "name": "Ananya Deshmukh", "role": "Design Lead", "phone": "+91 98765 43218" },
+      { "name": "Manish Gupta", "role": "Event Coordinator", "phone": "+91 98765 43219" }
+    ],
+    "extra": {
+      "id": "tool",
+      "label": "Primary design tool you will use",
+      "type": "select",
+      "opts": ["Figma", "Adobe XD", "Penpot", "Sketch", "Other"]
+    }
+  }
+]

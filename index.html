@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AIMEX 2026 – Department Fest Registration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Atmospheric Branded Whole Background -->
+  <div class="site-bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Top accent bar -->
+    <div class="bg-top-bar"></div>
+
+    <!-- Floating premium symbols -->
+    <div class="bg-symbols">
+      <span class="sym sym-1">✦</span>
+      <span class="sym sym-2">◆</span>
+      <span class="sym sym-3">✦</span>
+      <span class="sym sym-4">⬡</span>
+      <span class="sym sym-5">◆</span>
+      <span class="sym sym-6">✦</span>
+      <span class="sym sym-7">⬡</span>
+      <span class="sym sym-8">◆</span>
+      <span class="sym sym-9">✦</span>
+      <span class="sym sym-10">⬡</span>
+      <span class="sym sym-11">◆</span>
+      <span class="sym sym-12">✦</span>
+    </div>
+
+    <!-- Corner ornaments -->
+    <div class="bg-corner bg-corner-tl"></div>
+    <div class="bg-corner bg-corner-tr"></div>
+    <div class="bg-corner bg-corner-bl"></div>
+    <div class="bg-corner bg-corner-br"></div>
+
+    <!-- Decorative diagonal lines -->
+    <div class="bg-lines">
+      <div class="bg-line bg-line-1"></div>
+      <div class="bg-line bg-line-2"></div>
+      <div class="bg-line bg-line-3"></div>
+    </div>
+
+    <!-- Huge atmospheric festival watermark -->
+    <div class="bg-watermark-huge" aria-hidden="true">AIMEX 2026</div>
+
+    <!-- Animated festival ribbon ticker across the background -->
+    <div class="bg-ribbon-track" aria-hidden="true">
+      <div class="bg-ribbon">
+        <span>AIMEX 2026</span><span class="dot">✦</span>
+        <span>DEPARTMENT OF AIML</span><span class="dot">✦</span>
+        <span>NATIONAL TECH FEST</span><span class="dot">✦</span>
+        <span>OCTOBER 30 2026</span><span class="dot">✦</span>
+        <span>AIMEX 2026</span><span class="dot">✦</span>
+        <span>DEPARTMENT OF AIML</span><span class="dot">✦</span>
+        <span>NATIONAL TECH FEST</span><span class="dot">✦</span>
+        <span>OCTOBER 30 2026</span><span class="dot">✦</span>
+      </div>
+    </div>
+
+    <!-- Secondary corner watermark -->
+    <div class="bg-watermark-bottom" aria-hidden="true">AIMEX</div>
+  </div>
+
+  <header class="top">
+    <div class="wrap header-wrap">
+      <button class="brand" id="home" aria-label="Go to home">
+        <b id="fest">AIMEX 2026</b>
+        <span id="college">Department of AIML</span>
+      </button>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeBtn" aria-label="Toggle light and dark mode" title="Toggle theme">
+          <span id="themeIcon">🌙</span>
+        </button>
+        <button class="btn ghost sm" id="mineBtn">My tickets (<span id="cnt">0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <canvas id="neuralCanvas" class="neural-canvas" aria-hidden="true"></canvas>
+    <div class="hero-watermark" aria-hidden="true">AIMEX 2026</div>
+    <div class="wrap">
+      <div class="hero-badge">⚡ Annual Department Tech Fest</div>
+      <h1 id="heroT">AIMEX 2026</h1>
+
+
+      <!-- Countdown timer -->
+      <div class="countdown-card" id="countdownWrap">
+        <div class="countdown-title">Fest Kickoff Countdown</div>
+        <div class="countdown-grid">
+          <div class="cd-box"><span class="cd-val" id="cdDays">00</span><span class="cd-lbl">Days</span></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-box"><span class="cd-val" id="cdHours">00</span><span class="cd-lbl">Hours</span></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-box"><span class="cd-val" id="cdMins">00</span><span class="cd-lbl">Mins</span></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-box"><span class="cd-val" id="cdSecs">00</span><span class="cd-lbl">Secs</span></div>
+        </div>
+      </div>
+
+      <div class="facts">
+        <span>📅 Friday, 30 October 2026</span>
+        <span>📍 Seminar Hall & Tech Labs</span>
+        <span>🎓 Open to all branches & colleges</span>
+      </div>
+
+      <!-- Quick Highlights Ticker -->
+      <div class="fest-stats">
+        <div class="stat-item">
+          <b>₹25,000+</b>
+          <span>Prize Pool</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <b>5</b>
+          <span>Mega Events</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <b>100%</b>
+          <span>Certificates & Kits</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <b>Instant</b>
+          <span>UPI Confirmation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="wrap">
+      <!-- Events / Browse View -->
+      <section class="view" id="v-events" aria-labelledby="evh">
+        <div class="sec-h">
+          <div>
+            <h2 id="evh" tabindex="-1">Browse Events</h2>
+            <p>Select your event, inspect rules & prize details, and register.</p>
+          </div>
+
+          <!-- View Mode Switcher -->
+          <div class="view-switch" role="group" aria-label="Event display view">
+            <button class="view-btn active" id="btnViewCards" aria-pressed="true">
+              <span class="icon">🗂️</span> Cards
+            </button>
+            <button class="view-btn" id="btnViewTimeline" aria-pressed="false">
+              <span class="icon">🕒</span> Schedule
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter and Search Toolbar -->
+        <div class="event-toolbar">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="search" id="eventSearch" placeholder="Search by event, keyword, or venue..."
+              aria-label="Search events">
+            <button id="clearSearch" class="clear-btn" aria-label="Clear search" hidden>×</button>
+          </div>
+
+          <div class="category-chips" id="catChips" role="tablist" aria-label="Event categories">
+            <button class="chip active" data-cat="all">All Events</button>
+            <button class="chip" data-cat="coding">💻 Coding & Hackathon</button>
+            <button class="chip" data-cat="esports">🎮 Esports</button>
+            <button class="chip" data-cat="quiz">🧠 Tech Quiz</button>
+            <button class="chip" data-cat="uiux">🎨 UI/UX Design</button>
+          </div>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="grid" id="evList"></div>
+
+        <!-- Timeline Schedule View (Hidden by default) -->
+        <div class="timeline-container" id="timelineList" hidden></div>
+
+        <!-- Empty Search Result State -->
+        <div class="empty-state" id="emptyState" hidden>
+          <div class="empty-icon">🔎</div>
+          <h3>No matching events found</h3>
+          <p>Try searching for different keywords or clear the category filters.</p>
+          <button class="btn sm ghost" id="resetFiltersBtn">Reset Filters</button>
+        </div>
+      </section>
+
+      <!-- Registration Form View -->
+      <section class="view" id="v-form" hidden>
+        <div class="panel" id="formBox"></div>
+      </section>
+
+      <!-- UPI Payment View -->
+      <section class="view" id="v-pay" hidden>
+        <div class="panel" id="payBox"></div>
+      </section>
+
+      <!-- Registration Confirmation View -->
+      <section class="view" id="v-done" hidden>
+        <div id="doneBox"></div>
+      </section>
+
+      <!-- My Tickets View -->
+      <section class="view" id="v-mine" hidden>
+        <div class="sec-h">
+          <h2 tabindex="-1">My Tickets</h2>
+          <p>Locally stored on this device with verifiable check-in QR codes.</p>
+        </div>
+        <div id="mineList"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Rules, Prizes, and Guidelines Modal -->
+  <dialog class="modal-dialog" id="rulesModal">
+    <div class="modal-card">
+      <div class="modal-header" id="modalHeader">
+        <div>
+          <span class="modal-tag" id="mTag">Category</span>
+          <h2 id="mTitle">Event Title</h2>
+        </div>
+        <button class="modal-close" id="modalClose" aria-label="Close dialog">✕</button>
+      </div>
+
+      <div class="modal-body" id="modalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn ghost sm" id="modalCancel">Close</button>
+        <button class="btn sm" id="modalRegisterBtn">Register Now</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Confetti Canvas for Celebratory Ticket Screen -->
+  <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+
+  <!-- Toast Notification Container -->
+  <div id="toastBox" class="toast-box" aria-live="polite"></div>
+
+  <footer>
+    <div class="wrap footer-wrap">
+      <div>
+        <b id="footFest">AIMEX 2026</b> &bull; <span id="foot">MITS Deemed to be University</span>
+        <p class="foot-sub">Department of Artificial Intelligence and Machine Learning &bull; All Rights Reserved.</p>
+      </div>
+      <div class="foot-links">
+        <a href="#hero" class="foot-link">Top ↑</a>
+        <button class="foot-link-btn" id="footerMineBtn">My Tickets</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="neural-bg.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

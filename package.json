@@ -1,0 +1,25 @@
+{
+  "name": "aimex-fest-registration",
+  "version": "1.0.0",
+  "description": "Modern event registration platform for AIMEX 2026 department fest",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "powershell -ExecutionPolicy Bypass -File server.ps1"
+  },
+  "keywords": [
+    "event",
+    "registration",
+    "fest",
+    "upi",
+    "qrcode",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/aimex-fest.git"
+  },
+  "homepage": "https://github.com/yourusername/aimex-fest#readme"
+}
